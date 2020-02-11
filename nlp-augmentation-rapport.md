@@ -25,9 +25,27 @@ Some common ways might include:
 
  - Back translations.
 
- 
+ We decided to focus on the last one: back translation.
+
+## Back translation
+
+This approach has the advantage of being extermely easy to implement. 
+The whole code required to run the data augmentation holds on less than 50 lines of code and consists of a few POST requests. 
+It consists of translating our example to a foreign language and then translating it back to our language.
+This allows us to use the elaborate language structures learned by the state of the art machine translators (Google Translate, Microsoft Azure and others) and apply them to our phrases to generate semantically invariant examples. 
+Here are some of the most common APIs:
+
+ - [Google Translate API](https://cloud.google.com/translate/docs)
+ - [Microsoft Translation API](https://azure.microsoft.com/fr-fr/services/cognitive-services/translator-text-api/)
+ - [Yandex Translate API](https://tech.yandex.com/translate/)
+ - [IBM Watson Language Translator API](https://cloud.ibm.com/apidocs/language-translator/language-translator)
+
+Of course this sounds better than it actually is, the main disadvantage of this method is that it is not (completely) free. 
+The pricings range from 15$ per 1 million characters and cheaper as the volume increases. 
+For example for our problem we needed to translate a corpus of approximately 150000 characters. 
 
 
+For this  
 ## Bibliography
 
 1. Jason Wei and Kai Zou, EDA: Easy Data Augmentation Techniques for Boosting Performance on Text Classification Tasks, 2019, arXiv.com/1901.11196
