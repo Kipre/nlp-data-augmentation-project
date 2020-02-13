@@ -42,7 +42,8 @@ Here are some of the most common APIs:
 
 Of course this sounds better than it actually is, the main disadvantage of this method is that it is not (completely) free. 
 The pricings range from 15$ per 1 million characters and cheaper as the volume increases. 
-For example for our problem we needed to translate a corpus of approximately 150000 characters. 
+For example for our problem we needed to translate a corpus of approximately 150000 characters which doesn't soud like a lot but since the method requieres 2 x 9 requests per example (forward and backward translation for each of the 9 languages we selected).
+
 
 
 For this  
