@@ -43,6 +43,15 @@ Here are some of the most common APIs:
 Of course this sounds better than it actually is, the main disadvantage of this method is that it is not (completely) free. 
 The pricings range from 15$ per 1 million characters and cheaper as the volume increases. 
 For example for our problem we needed to translate a corpus of approximately 150000 characters which doesn't soud like a lot but since the method requieres 2 x 9 requests per example (forward and backward translation for each of the 9 languages we selected).
+For this reasont it is preferable to have access to a service with at lest 2M characters available.
+
+Here is a review of the free services we identified:
+
+|Provider|Free limit|Commentary|
+|--------|-----|----------|
+|Microsoft Azure| 2M characters/month | We were not able tu run the service|
+|Yandex Translate| 1M characters/24h | Worked great |
+|Goslate (Unofficial Google)| ? | Works but fast but reaches the limit fast aswell|
 
 
 
