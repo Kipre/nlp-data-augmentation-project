@@ -48,14 +48,19 @@ For this reasont it is preferable to have access to a service with at lest 2M ch
 Here is a review of the free services we identified:
 
 |Provider|Free limit|Commentary|
-|--------|-----|----------|
+|--------|----------|----------|
 |Microsoft Azure| 2M characters/month | We were not able tu run the service|
 |Yandex Translate| 1M characters/24h | Worked great |
-|Goslate (Unofficial Google)| ? | Works but fast but reaches the limit fast aswell|
+|Goslate (Unofficial Google)| ? | Works quickly but reaches the limit quickly aswell|
+
+This is not an exhaustive list of the free services but those are the ones we identified as more reliable/easier to use.
+
+It is important to note that we paralelized the workflow to match the allowances per ip adress/api key. For example while some of us are translating on one service, others use another but using only a subset of the 9 languages so that the total number of characters is lower than the daily limit. 
+
+## Quality
 
 
 
-For this  
 ## Bibliography
 
 1. Jason Wei and Kai Zou, EDA: Easy Data Augmentation Techniques for Boosting Performance on Text Classification Tasks, 2019, arXiv.com/1901.11196
