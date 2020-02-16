@@ -61,6 +61,16 @@ It is important to note that we paralelized the workflow to match the allowances
 
 In this section we will present some raw results to give an idea about what the backtranslated phrases might look like.
 
+```
+original : je souhaite enregistrer une convention de pacte civil de solidarité
+en       : je veux m'inscrire à une convention de pacte civil de solidarité
+es       : Je veux enregistrer une convention de pacte civil de solidarité
+ru       : je veux garder une convention, un pacte civil de solidarité
+de       : je souhaite enregistrer une convention de pacte civil de solidarité
+ar       : Je veux enregistrer une convention sur la Charte de civil de solidarité
+it       : Je veux m'inscrire à une convention de la solidarité pacte civil
+```
+
 ## Results
 
 In this section we present quantitative results.
@@ -73,7 +83,7 @@ In this section we present quantitative results.
 The first run was made using the provided evaluation code but using only 10 epochs. 
 The second was done using the `test.txt` and `dev.txt` from the first run and only the `train.txt` was changed in each split so that it contains exclusively backtranslated sentences.
 
-As we were expecting the augmented data enhanced our model but we still have lots of doubts about how representative of the reality those results are.
+As expected, the augmented data enhanced our model but we still have lots of doubts about how representative of the reality those results are.
 One of the reasons of such a difference might be that repetitiveness of the sentences leads to overfitting. 
 
 ## Conclusion
