@@ -68,10 +68,13 @@ In this section we present quantitative results.
 | Setting | Accuracy | F1 (micro) |
 |--|--|--|
 | Baseline data | 0.937 +- 0.065 | 0.938 +- 0.066 |
-| Augmented data (6 languages) 
+| Augmented data (6 languages) | 0.988 +- 0.015 | 0.988 +- 0.015 |
 
 The first run was made using the provided evaluation code but using only 10 epochs. 
 The second was done using the `test.txt` and `dev.txt` from the first run and only the `train.txt` was changed in each split so that it contains exclusively backtranslated sentences.
+
+As we were expecting the augmented data enhanced our model but we still have lots of doubts about how representative of the reality those results are.
+One of the reasons of such a difference might be that repetitiveness of the sentences leads to overfitting. 
 
 ## Conclusion
 
