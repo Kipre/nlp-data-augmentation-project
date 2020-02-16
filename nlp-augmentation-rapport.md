@@ -53,7 +53,7 @@ Here is a review of the free services we identified:
 |Yandex Translate| 1M characters/24h | Worked great |
 |Goslate (Unofficial Google)| ? | Works quickly but reaches the limit quickly as well|
 
-This is not an exhaustive list of the free services but those are the ones we identified as more reliable/easier to use.
+This is not an exhaustive list of the free services but those are the ones we identified as most reliable/easiest to use.
 
 It is important to note that we paralelized the workflow to match the allowances per ip adress/api key. For example while some of us are translating on one service, others use another but using only a subset of the 9 languages so that the total number of characters is lower than the daily limit. 
 
@@ -78,7 +78,13 @@ One of the reasons of such a difference might be that repetitiveness of the sent
 
 ## Conclusion
 
-In this work we were able to augment our dataset by a factor of 6 thus proving that our approach is interesting.
+In this work we were able to augment our dataset by a factor of 6 thus proving that our approach is interesting. 
+The score gain also suggest that such a practice can be beneficial in a low data setting. 
+
+This approach can be enhanced using multithreaded computing and having an unlimited access to a translating API could also be very interesting.
+Altough we were not able to generate the amount of data requeted by the assignement (because only the Yandex API worked reliably and the other members of the team couldn't get other services to work properly), we were able to show a proof of concept. 
+
+
 
 ## Bibliography
 
