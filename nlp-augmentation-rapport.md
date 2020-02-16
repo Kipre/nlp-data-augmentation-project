@@ -51,7 +51,7 @@ Here is a review of the free services we identified:
 |--------|----------|----------|
 |Microsoft Azure| 2M characters/month | We were not able tu run the service|
 |Yandex Translate| 1M characters/24h | Worked great |
-|Goslate (Unofficial Google)| ? | Works quickly but reaches the limit quickly aswell|
+|Goslate (Unofficial Google)| ? | Works quickly but reaches the limit quickly as well|
 
 This is not an exhaustive list of the free services but those are the ones we identified as more reliable/easier to use.
 
@@ -59,7 +59,23 @@ It is important to note that we paralelized the workflow to match the allowances
 
 ## Quality
 
+In this section we will present some raw results to give an idea about what the backtranslated phrases might look like.
 
+## Results
+
+In this section we present quantitative results.
+
+| Setting | Accuracy | F1 (micro) |
+|--|--|--|
+| Baseline data | 0.937 +- 0.065 | 0.938 +- 0.066 |
+| Augmented data (6 languages) 
+
+The first run was made using the provided evaluation code but using only 10 epochs. 
+The second was done using the `test.txt` and `dev.txt` from the first run and only the `train.txt` was changed in each split so that it contains exclusively backtranslated sentences.
+
+## Conclusion
+
+In this work we were able to augment our dataset by a factor of 6 thus proving that our approach is interesting.
 
 ## Bibliography
 
