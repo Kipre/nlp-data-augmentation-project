@@ -71,6 +71,26 @@ ar       : Je veux enregistrer une convention sur la Charte de civil de solidari
 it       : Je veux m'inscrire à une convention de la solidarité pacte civil
 ```
 
+```
+original : Bonjour mes enfants étant malade je souhaiterais supprimer des la cantine
+en       : Bonjour mes enfants est malade, je voudrais supprimer la cantine
+es       : Bonjour mes enfants est malade, je voudrais enlever la cantine
+ru       : Bonjour, mes enfants, étant malade, je voudrais supprimer de la salle à manger
+de       : Bonjour, mes enfants sont malades, je voudrais supprimer la cantine
+ar       : Salut mon enfants malades, je voudrais enlever la cantine
+it       : Bonjour mes enfants est malade, je voudrais supprimer la table
+```
+
+```
+original : je souhaite m'inscrire sur les listes électorales 
+en       : Je veux m'inscrire sur les listes électorales
+es       : Je veux m'inscrire sur les listes électorales
+ru       : je veux m'inscrire sur les listes électorales
+de       : je souhaite m'inscrire sur les listes électorales
+ar       : Je veux d'inscription sur les listes électorales
+it       : Je veux m'inscrire sur les listes électorales
+```
+
 ## Results
 
 In this section we present quantitative results.
